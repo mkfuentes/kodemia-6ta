@@ -22,6 +22,7 @@ if (number >= 0 && number <= 100 && number % 10 === 0 ) {
 
 /*screen interpolation*/
 /*
+se utilizan comilla francesa invertida y las variables van dentro de ${}
 console.log(`El resultado de 1+10 es: ${1+10}`)
 */
 
