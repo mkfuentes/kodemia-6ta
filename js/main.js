@@ -42,5 +42,16 @@ reductor.reduce(function(accumulator, currenValue, indice, vector){
     return accumulator + currenValue
 })
 
+//Factorial
+
+
+function factorial (numero) {
+	var total = 1; 
+	for (index=1; index<=n; index++) {
+		total = total * index; 
+	}
+	return total; 
+}
+
 
     
