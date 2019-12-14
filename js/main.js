@@ -65,5 +65,31 @@ function arrayOfMult (num, length){
 
 //Convertir un objeto en una matriz donde cada elemento representa palabra valor
 //toArray ({a:1, b:2}) >>> [["a",1],["b",2]]
+/*
 
+var objeto = {
+  a:1,
+  b:2,
+  c:3
+}
+​
+var objArr = []
+function toArray (obj){
+objArr = Object.entries(objeto)
+console.log(objArr)
+}
+*/
 
+// ejercicio 3 ** Eliminar duplicados de array
+
+var list = [1,2,3,4,5,6,3,2,1]
+var unique = []
+
+function removeDups (array){
+  for(index=0;index<array.length;index++){
+    if (array.indexOf(array[index]) === -1){
+        unique.push(array)
+    }
+    }
+  }
+  
