@@ -4,7 +4,7 @@
 var abdce = [
   "a", "b", "c", "d", "e"
 ]
-//dom selectors
+//dom selectors, objeto que recibe un elemento
 var liNodes = document.getElementsByTagName("li")
 
 for (i=0;i<abdce.length; i++){
